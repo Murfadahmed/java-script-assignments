@@ -252,26 +252,103 @@
 
 // -----------question number seven--------------
 
-var itempackets_rate = 209;
+// var itempackets_rate = 209;
 
-var itemBox_rate = 223;
+// var itemBox_rate = 223;
 
-var quamtityOf01 = (prompt("how many pakets do you want to buy?"));
+// var quamtityOf01 = (prompt("how many pakets do you want to buy?"));
 
-var quamtityOf02 = (prompt("how many sandboxes do you want to buy?"));
+// var quamtityOf02 = (prompt("how many sandboxes do you want to buy?"));
 
-var shipping_charges = 100; total_cost =(`${(itempackets_rate * quamtityOf01) + (itemBox_rate * quamtityOf02) + shipping_charges}`)
+// var shipping_charges = 100; total_cost =(`${(itempackets_rate * quamtityOf01) + (itemBox_rate * quamtityOf02) + shipping_charges}`)
 
-// alert(total_cost);
+// // alert(total_cost);
 
-document.write(`the price of nimkon packets is = ${itempackets_rate}.  <br>`)
-document.write(`the price of sand boxes packets is = ${itemBox_rate}.  <br>`)
+// document.write(`the price of nimkon packets is = ${itempackets_rate}.  <br>`)
+// document.write(`the price of sand boxes packets is = ${itemBox_rate}.  <br>`)
 
-document.write(`the quantity of packets you prefer is = ${quamtityOf01}.  <br>`)
-document.write(`the quantity of sand boxes you prefer is  =${quamtityOf02}.  <br>`)
+// document.write(`the quantity of packets you prefer is = ${quamtityOf01}.  <br>`)
+// document.write(`the quantity of sand boxes you prefer is  =${quamtityOf02}.  <br>`)
 
-document.write(`shipping charges that we charged is = ${shipping_charges}.  <br>`)
+// document.write(`shipping charges that we charged is = ${shipping_charges}.  <br>`)
 
-document.write(`the total nimkon price = ${itempackets_rate * quamtityOf01} <br>`)
-document.write(`the total nimkon price = ${itemBox_rate * quamtityOf02} <br>`)
-document.write(`the total cost is = ${total_cost}  <br>`)
+// document.write(`the total nimkon price = ${itempackets_rate * quamtityOf01} <br>`)
+// document.write(`the total nimkon price = ${itemBox_rate * quamtityOf02} <br>`)
+// document.write(`the total cost is = ${total_cost}  <br>`)
+
+// -------------question number  10----------
+
+// //------------arthmetic expression------
+
+
+// var a = 5 ; b = 10  ; c = 2;
+
+
+// var number = (+prompt(`what  no in your mind`));
+
+
+// alert(number + a * b / c);
+
+
+//-------------age calculator--------
+
+
+// var nam = (prompt(`what is your name ?`))
+// var currentYear = 2023 ;
+
+// var birthYear = (+prompt(`what is your birth year?`)) ;
+
+// var  age = `${nam} ! your age is ${currentYear - birthYear} years. `
+
+// document.write( age)
+
+//-------------------geometrical -----------
+
+
+//  var pei = 3.142 ;
+
+// var radius = (+prompt(`write your redius number:`))
+
+
+//  var circumference = (` ${ 2 * pei * radius} `) ;
+
+//  var area = (`${pei * radius * radius}`)
+
+//  document.write(`the radius of circle is ${radius}. <br>`);
+ 
+ 
+//  document.write(`the circumference is : ${circumference} <br>`)
+
+
+
+//  document.write(`the area of circle is : ${area} <br>`)
+
+
+//--------------- the life time supply calculater--------------- 
+
+// var  snacks = (prompt("what is your  favourite snack"))
+
+
+// var currentAge = (+prompt("what's your current age?"))
+
+
+// var estAge = (+prompt('how long you will alive ?'))
+
+// var estEat = (+prompt(`how many ${snacks} do you eat a day ?`))
+
+// var totalCandy = (estEat * 365 ) * (estAge - currentAge) 
+
+// document.write(` your favourite snacks is :${snacks} <br> `)
+
+
+// document.write(` the amount of ${snacks} do you eat ${estEat} <br>`)
+// document.write( `your current age is : ${currentAge} <br>`)
+
+
+// document.write( `your estimated age is : ${estAge} <br>`)
+
+// document.write(` you will need ${totalCandy} ${snacks} to last you until the ripe old age of ${estAge}.  <br> `)
+
+
+
+//---------------finished-------
