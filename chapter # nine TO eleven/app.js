@@ -112,3 +112,148 @@
 // else{
 //     alert(none)
 // }
+
+//----------------question number six======
+// var subject1 = +prompt("write your first subject marks out of 100,")
+// var subject2 = +prompt("write your second subject marks out of 100,")
+// var subject3 = +prompt("write your third subject marks out of 100,")
+
+// var totalsubject = subject1 + subject2 + subject3
+
+// console.log(totalsubject);
+// var totalinto = 300;
+
+// let percentage = totalsubject / totalinto * 100;
+
+// console.log(`${percentage}%`)
+// if (percentage >= 80) {
+//     document.write(
+//         `Total Marks : ${totalinto} <br>
+//      Obtained Marks : ${totalsubject}<br>
+//      percentage : ${percentage}<br>
+//      grade : A-One <br>
+//      ramarks : Excellent`
+//     )
+// }
+// else if (percentage >= 70) {
+//     document.write(
+//         `Total Marks : ${totalinto} <br>
+//             Obtained Marks : ${totalsubject}<br>
+//             percentage : ${percentage}<br>
+//             grade : A <br>
+//             ramarks : good`
+//     )
+
+// }
+// else if (percentage >= 60) {
+//     document.write(
+//         `Total Marks : ${totalinto} <br>
+//                 Obtained Marks : ${totalsubject}<br>
+//                 percentage : ${percentage}<br>
+//                 grade : B <br>
+//                 ramarks : "you need to improve your self"`
+//     )
+
+// }
+// else if (percentage >= 50) {
+//     document.write(
+//         `Total Marks : ${totalinto} <br>
+//                     Obtained Marks : ${totalsubject}<br>
+//                     percentage : ${percentage}<br>
+//                     grade : c <br>
+//                     ramarks : "you are just able to learn"`
+//     )
+
+// }
+
+// else if (percentage <= 50) {
+//     document.write(
+//         `Total Marks : ${totalinto} <br>
+//                         Obtained Marks : ${totalsubject}<br>
+//                         percentage : ${percentage} <br>
+//                  grade : fail++ <br>
+//                  ramarks : "sorry you are fail`
+//     )
+
+// }
+
+//--------------question number seven---
+
+// var secret = 05 ;
+// let user = (+prompt("tell me your secret number  1 to 10."))
+// if (user === secret){
+//     alert(`"Bingo! correct answer. "`)
+// }
+// else if(user === ++secret){
+//     alert(`"you are soo close to the correct answer!"`)
+// }
+// else if(user === secret++){
+//     alert(`"you are soo close to the correct answer!"`)
+// }
+// else{
+//     alert("ohho! you are wrong.")
+// }
+//-----------question number eight----
+// let whether = +prompt("whats weather Today ")
+// if(whether / 3){
+//     alert("today is sunny.")
+// }
+
+//queastion  number nine-----
+// var anynum = +prompt("write a number.")
+// if(anynum % 2 == 0){
+//     alert("its an even")
+// }
+// else{
+//     alert("its an odd.")
+// }
+//----------- question number ten=========
+// var temp = +prompt("what,s wheather today !")
+// if(temp >= 40){
+//     alert("it,s too hot!")
+// }
+// else if(temp >= 30){
+//     alert("the weather is Normall.")
+// }
+// else if(temp >= 20 && temp >= 11){
+//     alert("the weather is cool.")
+// }
+// else if(temp >= 10){
+//     alert("the weather is too cool.")
+// }
+//---------question number eleven----
+
+// var first = +prompt("what is the first number do you calculate")
+// var operation = prompt("what do you want to do?")
+// var second = +prompt("what is the second number do you calculate")
+
+// if (operation === "+"){
+//     document.write(
+//         first + second
+
+//     )
+// }
+//  else if  (operation === "-"){
+//     document.write(
+//         first - second
+
+//     )
+// }
+// else if (operation === "*"){
+//     document.write(
+//         first * second
+
+//     )
+// }
+// else if (operation === "/"){
+//     document.write(
+//         first / second
+
+//     )
+// }
+// else if (operation === "%"){
+//     document.write(
+//         first % second
+
+//     )
+// }
